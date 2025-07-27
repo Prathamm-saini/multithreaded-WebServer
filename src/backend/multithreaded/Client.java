@@ -62,7 +62,7 @@ public class Client {
     public static void main(String[] args){
         Client client = new Client();
         //client is the object of the client class
-        //for loop is used to create 100 threads
+        //for loop is used to create 1000 threads
         for(int i=0; i<1000; i++){
             try{
                 //thread is the object of the thread class
