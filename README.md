@@ -54,15 +54,6 @@ Success Rate: Percentage of successful requests
 Real-time Logs: Individual request status and timing
 
 
-📁 Project Structure
-multithreaded-WebServer/
-├── index.html          # Main HTML structure
-├── style.css           # Modern UI styling
-├── server.js           # Testing logic and API calls
-└── README.md           # This file
-🎨 UI Components
-
-
 Sidebar: Navigation and future features (single-threaded, thread pool servers)
 Main Panel: Primary testing interface for multi-threaded server
 Results Section: Performance metrics and status display
@@ -91,16 +82,6 @@ Open a Pull Request
 This project is licensed under the MIT License - see the LICENSE file for details.
 👨‍💻 Author
 Pratham Saini
-
-GitHub: @Prathamm-saini
-LinkedIn: Pratham Saini
-
-🙏 Acknowledgments
-
-Built with vanilla HTML, CSS, and JavaScript
-Inspired by modern server performance testing tools
-UI design influenced by glassmorphism trends
-
 
 ⭐ Star this repository if you found it helpful!
 
