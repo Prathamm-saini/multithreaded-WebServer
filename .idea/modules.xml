@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WebServer.iml" filepath="$PROJECT_DIR$/WebServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multithreaded-WebServer.iml" filepath="$PROJECT_DIR$/multithreaded-WebServer.iml" />
     </modules>
   </component>
 </project>

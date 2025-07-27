@@ -2,9 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-threaded Server Tester</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="sidebar">
+    <a href="https://github.com/Prathamm-saini/multithreaded-webserver" class="github-link" target="_blank">
+        <img src="https://github.com/Prathamm-saini.png" alt="GitHub Profile" class="github-avatar">
+        <div class="github-info">
+            <h3>Source Code</h3>
+            <p>View on GitHub</p>
+        </div>
+    </a>
+
+    <div class="sidebar-section">
+        <h4>Other Servers</h4>
+        <div class="server-option disabled">
+            <div class="server-name">Single-threaded Server</div>
+            <div class="server-port">Port: 8011</div>
+        </div>
+        <div class="server-option disabled">
+            <div class="server-name">Thread Pool Server</div>
+            <div class="server-port">Port: 8012</div>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <h4>Bulk Testing</h4>
+        <button class="sidebar-button disabled" disabled>Test All Servers</button>
+        <p class="sidebar-note">Coming soon...</p>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+    <div class="header">
+        <h1>Multi-threaded Server Tester</h1>
+        <p>High-performance concurrent request handling</p>
+    </div>
+
+    <div class="server-section">
+        <div class="server-card main-server">
+            <div class="server-header">
+                <h2>Multi-threaded Server</h2>
+                <div class="server-status" id="serverStatus">
+                    <span class="status-indicator"></span>
+                    <span>Port: 8010</span>
+                </div>
+            </div>
+
+            <div class="server-controls">
+                <div class="control-group">
+                    <label for="clientCount">Concurrent Requests:</label>
+                    <input type="number" id="clientCount" value="10" min="1" max="100">
+                </div>
+                <button onclick="testServer('multi', 8010)" id="testButton">Test Server</button>
+            </div>
+
+            <div class="result-section">
+                <div class="result" id="result-multi"></div>
+                <div class="metrics" id="metrics-multi"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="logs-section">
+        <div class="logs-header">
+            <h3>Connection Logs</h3>
+            <button onclick="clearLogs()" class="clear-logs">Clear</button>
+        </div>
+        <div class="log-content" id="logContent">
+            <div class="log-entry info">[${new Date().toLocaleTimeString()}] Ready to test multi-threaded server...</div>
+        </div>
+    </div>
+</div>
+
+<script src="server.js"></script>
 </body>
 </html>
