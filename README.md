@@ -29,16 +29,7 @@ Before running, ensure you have:
 
 ---
 
-## 🛠 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Prathamm-saini/multithreaded-WebServer.git
-
-# Navigate to the directory
-cd multithreaded-WebServer
-
-🏃‍♂️ Quick Start
+## 🏃‍♂️ Quick Start
 Start your Java server on port 9010 with /test endpoint.
 
 Open the tester in your web browser.
@@ -49,7 +40,7 @@ Click "Test Server" to begin performance testing.
 
 View results and logs in real-time.
 
-🎯 Usage
+## 🎯 Usage
 Basic Testing
 Enter number of concurrent requests (1–1000).
 
@@ -66,7 +57,7 @@ Success Rate – Percentage of successful requests.
 
 Real-time Logs – Individual request status and timing.
 
-⚡ Performance Testing
+## ⚡ Performance Testing
 The tester evaluates:
 
 Concurrency Handling – How well your server handles multiple simultaneous requests.
@@ -77,7 +68,7 @@ Throughput – Requests per second your server can handle.
 
 Reliability – Success rate under concurrent load.
 
-📌 UI Layout
+## 📌 UI Layout
 Sidebar – Navigation and upcoming features (single-threaded, thread pool servers).
 
 Main Panel – Primary testing interface for multi-threaded server.
@@ -86,49 +77,10 @@ Results Section – Displays performance metrics and status.
 
 Logs Panel – Real-time monitoring with color-coded status.
 
-🤝 Contributing
-Contributions are welcome!
 
-Fork the repository.
-
-Create a new branch:
-
-bash
-Copy
-Edit
-git checkout -b feature/amazing-feature
-Commit your changes:
-
-bash
-Copy
-Edit
-git commit -m 'Add some amazing feature'
-Push to the branch:
-
-bash
-Copy
-Edit
-git push origin feature/amazing-feature
-Open a Pull Request.
-
-📝 License
+## 📝 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Pratham Saini
 ⭐ Star this repository if you found it helpful!
-
-markdown
-Copy
-Edit
-
----
-
-### Key Improvements:
-- Added **section separators** for better scanning.
-- Used **bold keywords** and `code` blocks for technical terms.
-- Grouped related information together (e.g., prerequisites before install).
-- Improved **bullet alignment and spacing** so it doesn’t feel cramped.
-- Images are now **above the fold** so the project looks attractive right away.
-
-If you want, I can also **add badges** (GitHub stars, license, tech stack) at the top so it looks like a polished open-source project. That would make it feel way more professional.
